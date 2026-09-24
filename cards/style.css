@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+    min-height: 100vh;
+    margin: 0;
+
+    background-image: url(fundo-cards.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 40px;
+    flex-wrap: wrap;
+}
+
+.cards{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.player-card {
+    width: 320px;
+    min-height: 460px;
+    background-color: #6b9d78;
+    border: 10px solid #527d5f;
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #53645a;
+    box-shadow: 0 8px 0 #3f654b;
+}
+
+.card-top {
+    height: 55px;
+    background-color: #80ae89;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.trofeu {
+    font-size: 27px;
+}
+
+.card-title {
+    background-color: #6d9e77;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.card-title strong {
+    color: #f5dc75;
+    font-size: 21px;
+}
+
+.player-info {
+    background-color: #f1f3f2;
+    padding: 14px 10px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.avatar img{
+    width: 100px;
+    height: 100px;
+    background-color: #dce1df;
+    flex-shrink: 0;
+}
+
+.info {
+    font-size: 16px;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.info strong {
+    display: block;
+    font-size: 15px;
+}
+
+.xp {
+    background-color: #f1f3f2;
+    padding: 12px 10px;
+}
+
+.xp-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.xp-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #d7d9d8;
+}
+
+.xp-bar div {
+    width: 40%;
+    height: 100%;
+    background-color: #f0d36b;
+}
+
+.conquistas {
+    background-color: #f1f3f2;
+    padding: 5px 10px 12px;
+    text-align: center;
+}
+
+.conquistas p {
+    font-size: 20px;
+    margin: 5px 0 8px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+}
+
+.player-card:hover {
+    transform: translateY(-8px);
+    transition: 0.3s;
+}
+
+.menu {
+    position: fixed;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+
+    background-color: #071d52;
+    padding: 8px;
+    border-radius: 40px;
+
+    gap: 5px;
+
+    z-index: 10;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 25px;
+    border-radius: 30px;
+
+    color: white;
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+.menu a p {
+    margin: 0;
+}
+
+.menu a.ativo {
+    background-color: #20b985;
+}
+
+.menu a:hover {
+    background-color: #20b985;
+    transform: translateY(-2px);
+}

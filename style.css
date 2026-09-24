@@ -1,0 +1,77 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body{
+    min-height: 100vh;
+    margin: 0;
+
+    background-image: url(fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    position: fixed;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.menu a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+
+    background-color: green;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Pixelify Sans',bold;
+    margin: 30px;
+}
+
+#logo{
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   width: 190px;
+   height: auto;
+   padding: 5px;
+}
+
+.conteudo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#começar{
+    font-family: 'Pixelify Sans',bold;
+    font-size: 25px;
+    padding: 12px 35px;
+    border-radius: 15px;
+    border: none;
+    background-color: #166B1F;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+    
+}
+
+#começar:hover{
+    background-color: #1B8A26;
+}

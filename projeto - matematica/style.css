@@ -1,0 +1,195 @@
+body{
+    background-image: url("images/Wireframe - Caio Júlio.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 125vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    padding-right: auto;
+    size: auto;
+}
+#LOGO-if{
+    height: 100px;
+    width: 300px;
+}
+#FAV{
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 0;
+    align-self: right;
+}
+#texto-game1{
+    color: #3A0001; 
+    font-size: 3rem;
+    text-transform: uppercase; 
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 400%;
+    font-family: pixelify sans;
+    font-weight: bolder;
+}
+#texto-game2{
+    color: #3A0001; 
+    text-transform: uppercase; 
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 300%;
+    font-family: pixelify sans;
+}
+#texto-game3{
+    color: #3A0001; 
+    text-transform: uppercase; 
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 200%;
+    font-family: pixelify sans;
+}
+#conclusão{
+    font-size: 56px;
+    color: #3A0001; 
+    font-size: 400%;
+    text-transform: uppercase; 
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: pixelify sans;
+    font-weight: bolder;
+    gap: 0;
+}
+.conclusão-principal{
+    margin-top: 150px;
+}
+.pulsar{
+    text-shadow: 0 0 10px #ff0055;
+    user-select: none;
+    animation: pulsoRegulado 1.4s infinite ease-in-out;
+}
+@keyframes pulsoRegulado {
+    0% {
+        transform: scale(1);
+        text-shadow: 0 0 10px #ff0055, 0 0 20px #ff0055;
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.08);
+        text-shadow: 0 0 25px #ff0055, 0 0 50px #ff0055;
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        text-shadow: 0 0 10px #ff0055, 0 0 20px #ff0055;
+        opacity: 0.8;
+    }
+}
+.geral{
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 40px 0;
+    background-color: none;
+    width: 100%;
+    border-radius: 9px;
+}
+.container {
+    width: 560px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    border: 2px solid #3A0001;
+    border-radius: 8px;
+    max-width: auto;
+}
+
+.questao {
+    margin-bottom: 20px;
+}
+
+.opcoes label {
+    display: block;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.descricao{
+    font-weight: bolder;
+}
+.pergunta{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 15px;
+}
+.botao-seta{
+    background-color: #0056b3; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+    text-decoration: none;
+    margin-top: 40px;
+    align-self: center;
+}
+.gabarito{
+    background-color: #3A0001;
+    border: 4px solid #ccc;
+    text-align: center;
+    font-weight: bolder;
+    color: aliceblue;
+    align-self: center;
+    width: 400px;
+    max-width: 100%;
+}
+
+.menu {
+    position: fixed;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+
+    background-color: #071d52;
+    padding: 8px;
+    border-radius: 40px;
+
+    gap: 5px;
+
+    z-index: 10;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 25px;
+    border-radius: 30px;
+
+    color: white;
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+.menu a p {
+    margin: 0;
+}
+
+.menu a:hover {
+    background-color: #20b985;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Acme', sans-serif;
+    background: linear-gradient(#2f7fad, #D8F5DC);
+}
+
+.conteudos-fase {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.conteudos-fase h1 {
+    font-size: 50px;
+    margin: 0;
+    color: white;
+}
+
+.conteudos-fase h2 {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.video {
+    width: 640px;
+    max-width: 90%;
+    height: 360px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.explicação {
+    background-color: white;
+    width: 80%;
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.explicação h3 {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.explicação p {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.avançar {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+    background-color: #63C174;
+    color: white;
+
+    padding: 12px 25px;
+    border-radius: 15px;
+
+    text-decoration: none;
+    font-size: 20px;
+
+    transition: 0.2s;
+}
+
+.avançar:hover {
+    background-color: #4FAE60;
+    transform: scale(1.05);
+}
+
+.voltar{
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+
+    background-color: #63C174;
+    color: white;
+
+    padding: 12px 25px;
+    border-radius: 15px;
+
+    text-decoration: none;
+    font-size: 20px;
+
+    transition: 0.2s;
+}
+
+.voltar{
+    background-color: #4FAE60;
+    transform: scale(1.05);
+}

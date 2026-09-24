@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    gap: 0;
+}
+
+.metade {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.esquerda {
+    background-image: url("images/Wireframe - Caio Júlio.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.direita {
+    background-color: #FB1154;
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+footer{
+    text-align: left;    
+    padding: 0px;         
+    flex-shrink: 0;
+    background-size: auto;
+}
+#Detalhe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 67px;
+    margin-left: auto;
+    padding: 0;
+    
+}
+.conteiner-pai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.assunto{
+    width: auto;
+    height: auto;
+    background-color: #FFD018;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+.navegacao-setas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.botao-seta {
+    background-color: #0056b3; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+    text-decoration: none;
+}
+
+.botao-seta:hover {
+    background-color: #004085; 
+}
